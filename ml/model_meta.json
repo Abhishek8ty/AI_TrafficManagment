@@ -1,0 +1,29 @@
+{
+  "features": [
+    "traffic_volume",
+    "avg_speed",
+    "weather_code",
+    "rain_mm",
+    "accident",
+    "event",
+    "public_transport_density",
+    "hour",
+    "is_peak",
+    "is_night",
+    "speed_vol_ratio"
+  ],
+  "labels": {
+    "0": "Low",
+    "1": "Medium",
+    "2": "High",
+    "3": "Very High"
+  },
+  "weather_map": {
+    "Clear": 0,
+    "Cloudy": 1,
+    "Fog": 2,
+    "Rain": 3,
+    "Heavy Rain": 4
+  },
+  "accuracy": 0.9576354679802955
+}

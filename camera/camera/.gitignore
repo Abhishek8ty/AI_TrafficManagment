@@ -1,0 +1,43 @@
+# Virtual environment
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs and checkpoints
+*.log
+*.ckpt
+runs/*
+!runs/detect/train4/weights/best.pt
+
+# YOLO / ML models
+*.pth
+*.onnx
+*.tflite
+
+# Datasets
+traffic_dataset/
+*.yaml
+*.csv
+
+# Media files
+*.mp4
+*.avi
+*.mov
+*.jpg
+*.jpeg
+*.png
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
